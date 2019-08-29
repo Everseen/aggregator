@@ -12,7 +12,7 @@ from email.mime.text import MIMEText
 today = datetime.date.today()
 yesterday = today - datetime.timedelta(1)
 dir = os.path.dirname(os.path.abspath('db.py'))
-path = ''.join([dir, '\\project\\secret.py'])
+path = ''.join([dir, '\\collecting-broadcasting\\secret.py'])
 if os.path.exists(path):
     from project.secret import (DB_PASSWORD, DB_HOST, DB_NAME, DB_USER,
                                 MAILGUN_KEY, API, ADMIN_EMAIL, MAIL_SERVER,

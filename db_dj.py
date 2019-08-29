@@ -1,7 +1,7 @@
 import os, sys
 project_dir = os.path.dirname(os.path.abspath('db_dj.py'))
 sys.path.append(project_dir)
-os.environ['DJANGO_SETTINGS_MODULE'] = 'project.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'collecting-broadcasting.settings'
 import django
 django.setup()
 

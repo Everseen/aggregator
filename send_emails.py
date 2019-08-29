@@ -13,7 +13,7 @@ today = datetime.date.today()
 ten_days_ago = datetime.date.today() - datetime.timedelta(10)
 
 dir = os.path.dirname(os.path.abspath('db.py'))
-path = ''.join([dir, '\\project\\secret.py'])
+path = ''.join([dir, '\\collecting-broadcasting\\secret.py'])
 if os.path.exists(path):
     from project.secret import (DB_PASSWORD, DB_HOST, DB_NAME, DB_USER,
                                 MAILGUN_KEY, API, MAIL_SERVER,
