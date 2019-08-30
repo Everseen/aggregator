@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 try:
-    from project.secret import (DB_PASSWORD, DB_HOST, DB_NAME, DB_USER,
+    from collecting-broadcasting.secret import (DB_PASSWORD, DB_HOST, DB_NAME, DB_USER,
                                 SECRET_KEY, ADMIN_EMAIL, MAILGUN_KEY, API,
                                 MAIL_SERVER, PASSWORD_AWARD, USER_AWARD,
                                 FROM_EMAIL)
