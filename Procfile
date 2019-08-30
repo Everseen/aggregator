@@ -1,1 +1,1 @@
-web: gunicorn find_it.wsgi --log-file -
+web: gunicorn collecting-broadcasting.wsgi --log-file -
